@@ -52,7 +52,7 @@
 
 		<h3>Software Development: Programming and Algorithms (SDPA) Coursework</h3>
 
-		<p>The coursework of this unit consists of three main parts: (note: GitHub Repo is private)
+		<p>The coursework of this unit consists of three main parts:
 
 		<h4>1- Software Development</h4>
 		<div class="img-container">
@@ -99,9 +99,11 @@
 
 			<p>In this part, the data source was Twitter. I collected Premier League (PL) related tweets using tweepy
 				built-in library in Python and saved them into a CSV file.
-				I then did a comprehensive exploratory data analysis on this dataset. The variables of interests were <br>
+				I then did a comprehensive exploratory data analysis on this dataset. The variables of interests were
+				<br>
 				['user', 'text', 'date', 'followers_count', 'retweet_count', 'favorite_count', 'location', 'source',
-				'tweet_hour'].</p>
+				'tweet_hour'].
+			</p>
 			<br>
 
 			<p>I did the following steps:
@@ -114,11 +116,90 @@
 				<li>- Summary of the findings</li>
 			</ul>
 			<br>
+
+
+			<h5>Dataset Dataframe Overview</h5><br>
+			<img src="images/sdpa-dataframe.png"> <br>
+
+			<h5>Dataset General statistics</h5>
+
+			<ul>
+				<li>- Total Number of Tweets: 1000 </li>
+				<li>- Retweets Average: 89</li>
+				<li>- Followers Average: 20712</li>
+				<li>- Favorite Average: 1 </li>
+
+			</ul>
+
 			<br>
 
-			<p>View Analysis Findings:</p>
-			<p>View Snippets of The Source Code Below: </p> <br>
-			<img src="images/main-script-snippet.png"> <br>
+			<h5>Some of the analysis findings</h5>
+			<p>
+			<h6>Analysis #1:</h6>
+
+			In this analysis an attempt to have an overview of tweets stream through a period of time (every ten
+			hours).
+			It seems that the tweets flow were steady throughout the period (December 23rd - December 26th). Then,
+			There
+			is a sharp increase of tweets by the 27th then decreased a bit at the end of the day. Eventually, it
+			rises
+			sharply again on the 28th as these two days 27th and 28th (Sunday and Monday) represents Premier League
+			matches day and so as it is shown on the graph, people interact more on Twitter on these days.</p>
+			<img src="images/sdpa-analysis-1.png"> <br>
+
+			<p>
+			<h6>Analysis #2:</h6>
+			In this analysis an attempt to explore the most frequent words in the dataset. based on the wordcloud
+			findings, It seems that the top words that most users tweet about are evolving around the transfer period of
+			time (transfermark), team's coaches such as Man United team's coach (Solskjaer) as well as teams names
+			during matches day. Additionally, Some leading sport TV channels such as (ESPNFC).</p>
+			<img src="images/sdpa-analysis-2.png"> <br>
+
+			<p>
+			<h6>Analysis #3:</h6>
+			In this analysis an attempt to explore the tweets time distributions throghout the day. As shown in
+			Histogram graph, it seems that people interact and tweet the most during midday from 12 pm until about 4 pm.
+			This is the time where most PL football matches happen.</p>
+			<img src="images/sdpa-analysis-3.png"> <br>
+
+			<p>
+			<h6>Analysis #4:</h6>
+			In this analysis an attempt to find the top PL hashtags in the dataset. Based on the finding it seems that
+			most people interact with the main hashtag of the league which is (#PL) with more than 150 tweets and also
+			(#LIV)Liverpool team as they are number on in the league table at the moment the dataset was collected.
+			Also, there is interactions from Korean people as the third top hashtag (#갓세븐) which has the same meaning of
+			the fourth hashtag (#GOT7).</p>
+			<img src="images/sdpa-analysis-4.png"> <br>
+
+			<p>
+			<h6>Analysis #5:</h6>
+
+			In this analysis the aim is to find the top ten users in the dataset that has the most number of followers.
+			Based on the findings, it seems that most people who are interested in PL football follow sport TV channels
+			such as BBCSport that has more than 8 million followers as shown in the graph.</p>
+			<img src="images/sdpa-analysis-5.png"> <br>
+
+			<h6>Analysis #6:</h6>
+
+			In this analysis I want to have an overview of tweet sources to analyze their occurrence. Based on the
+			findings of the analysis, it seems that the top common tweet sources are Android, iPhone and Web App.</p>
+			<img src="images/sdpa-analysis-6.png"> <br>
+
+			<h6>Analysis #7:</h6>
+
+			In this analysis, I want to have an overview of tweet locations to analyze users interactions with Premier
+			League globally. Based on the findings of the analysis, it seems that most interactive users are from the
+			United Kingdom, Nigeria, India and Ghana.</p>
+			<img src="images/sdpa-analysis-7.png"> <br>
+
+			<h6>Analysis #8:</h6>
+
+			In this analysis I want to search for the teams mentioned in PL related tweets. Based on the findings of the
+			analysis, it seems that the top mentioned teams are Chelsea, Arsenal (P.S. the team I love and support!),
+			Astonvilla and Evertone.</p>
+			<img src="images/sdpa-analysis-8.png"> <br>
+
+
 		</div>
 
 		<br>
@@ -128,5 +209,5 @@
 
 		<br>
 		<br>
-		<br>
-		<br>
+	
+		<h5> <a target="_blank" href="index.html">Return to Home Page</a></h5>
