@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>SDPA Module</title>
-    <link rel="shortcut icon" type="image/png" href="images/logo.png" >
+	<link rel="shortcut icon" type="image/png" href="images/logo.png">
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -15,17 +16,17 @@
 
 
 	<style type="text/css">
-		.img-container{
+		.img-container {
 			max-width: 600px;
 		}
 
-		img{
+		img {
 			width: 100%
 		}
-
 	</style>
 
 </head>
+
 <body>
 	<div class="nav-wrapper">
 
@@ -47,45 +48,85 @@
 	<div class="main-container">
 		<br>
 
+
+
+		<h3>Software Development: Programming and Algorithms (SDPA) Coursework</h3>
+
+		<p>The coursework of this unit consists of three main parts: (note: GitHub Repo is private)
+
+		<h4>1- Software Development</h4>
 		<div class="img-container">
-			<img src="images/sdpa-logo.jpeg">
-		</div>
-		
-		<h3>Technology, Innovation, Business, and Society (TIBS) Coursework</h3>
+			<p>In this part, I built a car rental system that allows customers to interact with it including checking
+				available cars in the stock as well enabling the user to rent a car and return it to issue a
+				bill.
+				I instantiated three classes:
 
-		<p>In this unit coursework, I have written a comparative review of the following books:
-            <ul>
-                <li>- J. West & C. Bergstorm (2020) Calling Bullshit: The Art of Scepticism in a Data-Driven World. pp.352. </li>
-                <li>- S. Ritchie (2020) Science Fictions: How Fraud, Bias, Negligence, and Hype Undermine the Search for Truth. pp.368. </li>
-            </ul>
-		<br>
-		<br>
-	    <p> My writing review was around 2600 words where I discussed, compared and contrasted the authors' ideas in these pair of books. </p>
-		<br>
-		<br>
-		
-    </p>
+			<ul>
+				<li>- Customer Class: contains four methods (Rent, ReturnCar, RentedCars, VIP) and it is responsible for
+					managing user actions. It is integrated to work with Rental and Bill classes.</li> <br>
+				<li>- Rental Class contains three methods (init(self), ShowStock, RentCar) and its main responsibility
+					is to update cars status in the inventory and calculate the price of the rent.</li> <br>
+				<li>- Bill Class contains two methods (newBill, listBills) and its main responsibility is to issue a
+					bill for customers after they return a car.
+				</li> <br>
+			</ul>
+			<p>View Snippets of The Source Code Below: </p> <br>
+			<img src="images/main-script-snippet.png"> <br>
+			<p2>Customer Class</p2> <br> <br>
+			<img src="images/customer-class-snippet.png">
+			<p2>Unit Testing</p2> <br>
+			<img src="images/unit-test-snippet.png">
 
-		
-		
-
-
-		<h5>J. West & C. Bergstorm (2020) Calling Bullshit: The Art of Scepticism in a Data-Driven World.</h5>
-		<div class="img-container">
-			<img src="images/calling-bullshit-book.jpeg">
-		</div>
-
-        <h5>S. Ritchie (2020) Science Fictions: How Fraud, Bias, Negligence, and Hype Undermine the Search for Truth.</h5>
-		<div class="img-container">
-			<img src="images/science-fictions.jpeg">
 		</div>
 
-        <br>
-        <br>
+		<h4>2- Algorithm Analysis</h4>
+		<div class="img-container">
 
-        <p>Read Here:</p> <p> <a target="_blank" href="tibs.pdf">Review The Full Document in PDF Format </a></p>
+			<p>In this part, I wrote a function that takes two lists and produces an output list where the first list
+				(L1) sorted according to the ordering of the elements sequence in the second list (L2). Other elements
+				in the first list (L1) that is not present in the second list (L2), will be inserted at the end of the
+				output-list in sorted order.</p>
+			<br>
 
-        <br>
-        <br>
-        <br>
-        <br>
+			<p>View Source Code:</p>
+			<div class="img-container">
+				<img src="images/algorithm-analysis-code.png">
+			</div>
+		</div>
+
+		<h4>3- Data Analytics</h4>
+		<div class="img-container">
+
+			<p>In this part, the data source was Twitter. I collected Premier League (PL) related tweets using tweepy
+				built-in library in Python and saved them into a CSV file.
+				I then did a comprehensive exploratory data analysis on this dataset. The variables of interests were <br>
+				['user', 'text', 'date', 'followers_count', 'retweet_count', 'favorite_count', 'location', 'source',
+				'tweet_hour'].</p>
+			<br>
+
+			<p>I did the following steps:
+
+			<ul>
+				<li>- Setting up the virtual environment.</li>
+				<li>- Collecting the dataset from Twitter. </li>
+				<li>- Data preparation & cleaning</li>
+				<li>- Exploratory Data Analysis (EDA) with questions to answer </li>
+				<li>- Summary of the findings</li>
+			</ul>
+			<br>
+			<br>
+
+			<p>View Analysis Findings:</p>
+			<p>View Snippets of The Source Code Below: </p> <br>
+			<img src="images/main-script-snippet.png"> <br>
+		</div>
+
+		<br>
+		<br>
+
+
+
+		<br>
+		<br>
+		<br>
+		<br>
