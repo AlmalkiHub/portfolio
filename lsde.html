@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>LSDE Module</title>
-    <link rel="shortcut icon" type="image/png" href="images/logo.png" >
+	<link rel="shortcut icon" type="image/png" href="images/logo.png">
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -15,17 +16,17 @@
 
 
 	<style type="text/css">
-		.img-container{
+		.img-container {
 			max-width: 600px;
 		}
 
-		img{
+		img {
 			width: 100%
 		}
-
 	</style>
 
 </head>
+
 <body>
 	<div class="nav-wrapper">
 
@@ -50,28 +51,101 @@
 		<div class="img-container">
 			<img src="images/lsde-logo.png">
 		</div>
-		
+
 		<h3>Large-Scale Data Engineering (LSDE) Coursework</h3>
 
 		<p>In this unit coursework, I have done the following tasks:
 
 
-		<h5>Task 1: A written task related to the knowledge gained in the AWS Academy Cloud Foundations course which was part of the unit curriculum to debate the statement: "Data is not safe on the Public Cloud".</h5>
+		<h4>Task 1: A written task related to the knowledge gained in the AWS Academy Cloud Foundations course which was
+			part of the unit curriculum to debate the statement: "Data is not safe on the Public Cloud".</h4>
 		<div class="img-container">
-			<p>Read Sample:</p> <p> <a target="_blank" href="pdf/lsde-task1.pdf">Review A Sample of The Report in PDF Format</a></p>
+			<p>Read Sample:</p>
+			<p> <a target="_blank" href="pdf/lsde-task1.pdf">Review A Sample of The Report in PDF Format</a></p>
 		</div>
 
-        <h5>Task 2: A combined practical and written activity architecting a scaling application on AWS Cloud.</h5>
+		<h4>Task 2: A combined practical and written activity architecting a scaling application on AWS Cloud.</h4>
 		<div class="img-container">
-			<p>Read Sample:</p> <p> <a target="_blank" href="pdf/lsde-task2.pdf">Review A Sample of The Report in PDF Format</a></p>
+			<h5>Application Overview</h5>
+
+			<p>WordFreq is a complete application designed using the Go programming language. Counting
+				words in a text file is the basic feature of the programme. The top ten most common words in the
+				document are returned. It has been migrated to AWS cloud using four main services connected
+				with each other. The application runs on a virtual server (EC2 instance). Files are uploaded to
+				AWS cloud via Amazon Simple Storage Service (Amazon S3). When the files are uploaded
+				successfully to S3 bucket, an alert is sent to the job queue on Simple Queue Service (SQS) where
+				the application processes the available messages. Another results queue holds the top ten results
+				of the processed jobs. Eventually, all the output results are loaded into a NoSQL database table
+				(DynamoDB).</p>
+
+			<h5>Auto-Scaling Design Architecture</h5>
+
+			<p>The purpose of Auto-Scaling architecture is to allow the application to scale up and down to
+				meet demand. So, at this stage my goal was to support the application to handle greater loads. I
+				did this by trying to vertically scale the application. For example, increasing the size of the
+				instance from t2.micro to t2.large. Also, horizontally scaling by increasing the number of
+				instances for the WordFreq application. When setting up the auto-scaling architecture for the
+				WordFreq application, first I created Cloudwatch alarms attached to scaling policies in the autoscaling
+				group. The alarms' purpose is to be triggered once a threshold is breached to take the
+				action of launching worker instances specified in the scaling policy. The scaling depends on the
+				SQS jobs queue because that is where the messages are picked up by the consumer and get
+				processed. The process here begins with uploading test files to S3 bucket, then, an eventnotification
+				sends an alert to the jobs queue indicating that there are available messages ready to
+				be processed.</p>
+
+			<img src="images/scaling_architecture.png">
+			<center><b>Jobs Queue Scaling Architecture</b>
+			</center> <br>
+
+
+			<p>I have specified the threshold that if the average number of visible messages on the jobs queue is
+				equal to or more than three messages for one data point within a minute, the scale-out alarm will
+				be triggered to launch three servers for processing, and if there are no more messages remaining
+				on the jobs queue, the scale-in alarm will be activated to leave no instances running for cost
+				saving.</p>
+
+			<h5>Screenshots of some of the work I did</h5>
+
+			<img src="images/sqs.png">
+			<center><b>SQS Queues Status</b>
+			</center> <br> <br>
+
+			<img src="images/db.png">
+			<center><b>Saving the Results in DynamoDB</b>
+			</center> <br> <br>
+
+			<img src="images/asg.png">
+			<center><b>Auto-Scaling group Activity Monitoring</b>
+			</center> <br> <br>
+
+			<img src="images/scale.png">
+			<center><b>Scale-In Alarm Response on CloudWatch Service</b>
+			</center> <br> <br>
+
+			<img src="images/network_architecture.png">
+			<center><b>WordFreq Basic Network Architecture</b>
+			</center> <br> <br>
+
+			<img src="images/nat.png">
+			<center><b> NAT Instance Architecture</b>
+			</center> <br> <br>
+
+			<img src="images/asg_nat.png">
+			<center><b> Auto-Scaling group worker instances status with NAT Instance</b>
+			</center> <br> <br>
+
+			<img src="images/inbound_rules_vpc.png">
+			<center><b> Changing the inbound rules for the wordfreq-vpc security group</b>
+			</center> <br> <br>
+			
 		</div>
 
-        <br>
-        <br>
+		<br>
+		<br>
 
-        
 
-        <br>
-        <br>
-  
+
+		<br>
+		<br>
+
 		<h5> <a href="index.html">Return to Home Page</a></h5>
