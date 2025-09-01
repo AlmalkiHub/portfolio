@@ -1,6 +1,14 @@
 # Ali Almalki – Portfolio
 
-Welcome to my personal portfolio page.  
+👋 Welcome to my personal portfolio page.  
+
+---
+
+## 👨🏻‍💻 About Me
+I’m **Ali Almalki**, a **Data Scientist | AI Engineer** focused on turning ideas into useful AI applications.  
+I enjoy building with Python, LLMs, and cloud services to solve real problems and create delightful user experiences.
+
+---
 
 ##  🤖 Creator of AI Projects
 
@@ -37,13 +45,6 @@ Welcome to my personal portfolio page.
   Used SQL, SAS EG, and Microsoft Excel to produce relevant ad-hoc reports and perform meaningful quantitative and qualitative analyses addressing impactful business issues or questions.
 - **Lecturer** — *University of Jeddah* (Jan 2022– Jun 2022)  
   Lecturer at the Faculty of Computer Science and Engineering, University of Jeddah, teaching Artificial Neural Networks (CCAI-321), Introduction to Computer Science and Programming (CCCS-100), Introduction to Data Science (CCDS-211), Database Administration (CCDS-435), Introduction to Databases (CCCS-215), and Computational Discrete Mathematics (CCCS-122), with responsibilities including delivering lectures, addressing student inquiries, managing assignments and grading, providing feedback, and supervising examinations.
-
-
----
-
-## 👨‍💻 About Me
-I’m **Ali Almalki**, a **Data Scientist | AI Engineer** focused on turning ideas into useful AI applications.  
-I enjoy building with Python, LLMs, and cloud services to solve real problems and create delightful user experiences.
 
 ---
 
