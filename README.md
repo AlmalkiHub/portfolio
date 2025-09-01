@@ -1,6 +1,27 @@
-# 🌟 Ali Almalki – Portfolio
+# Ali Almalki – Portfolio
 
 Welcome to my personal portfolio page.  
+
+##  🤖 Creator of AI Projects
+
+| Project | Description | Link |
+|---|---|---|
+| **VibeLift** | AI-powered daily motivation app (text → audio → image). | [App Link](https://vibelift.streamlit.app/) |
+| **YouTube Lecture Summarizer** *(WIP)* | Give a YouTube URL → fetch transcript → concise key-point summary. | [WIP](WIP) |
+
+---
+
+## 🏵️ Certifications
+
+- **AWS Certified AI Practitioner (AIF-C01)** — *Amazon Web Services (AWS)*  
+  Issued **Aug 2025** · Expires **Aug 2028**  
+  Credential ID: `e7609d7a538540f9ae5ac6d30121e143`  
+  [Show credential](https://www.credly.com/badges/bd79bc79-6b37-436e-b91b-73e749ed40a1/linked_in_profile)
+
+- **Deep Learning Specialization (5 Courses)** — *DeepLearning.AI*  
+  Issued **Aug 2022**  
+  [Show credential](https://www.coursera.org/account/accomplishments/specialization/certificate/W6U9M8REBKBX)
+
 
 ---
 
@@ -49,28 +70,6 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
   <img src="https://img.shields.io/badge/Jupyter-FA0F00?logo=jupyter&logoColor=white&style=for-the-badge" />
 </p>
 
-
----
-
-## 🧪 Creator of AI Projects
-
-| Project | Description | Link |
-|---|---|---|
-| **VibeLift** | AI-powered daily motivation app (text → audio → image). | [App Link](https://vibelift.streamlit.app/) |
-| **YouTube Lecture Summarizer** *(WIP)* | Give a YouTube URL → fetch transcript → concise key-point summary. | [WIP](WIP) |
-
----
-
-## 🏆 Certifications
-
-- **AWS Certified AI Practitioner (AIF-C01)** — *Amazon Web Services (AWS)*  
-  Issued **Aug 2025** · Expires **Aug 2028**  
-  Credential ID: `e7609d7a538540f9ae5ac6d30121e143`  
-  [Show credential](https://www.credly.com/badges/bd79bc79-6b37-436e-b91b-73e749ed40a1/linked_in_profile)
-
-- **Deep Learning Specialization (5 Courses)** — *DeepLearning.AI*  
-  Issued **Aug 2022**  
-  [Show credential](https://www.coursera.org/account/accomplishments/specialization/certificate/W6U9M8REBKBX)
 
 ---
 
