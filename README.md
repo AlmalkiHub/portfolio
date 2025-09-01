@@ -26,9 +26,6 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
   <a href="https://github.com/AlmalkiHub/build-chatbot">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=build-chatbot&show_owner=true" alt="build-chatbot" />
   </a>
-  <a href="https://github.com/AlmalkiHub/petfinder-adoption-prediction">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=petfinder-adoption-prediction&show_owner=true" alt="petfinder-adoption-prediction" />
-  </a>
 
   <a href="https://github.com/AlmalkiHub/python-and-mysql-tutorial">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=python-and-mysql-tutorial&show_owner=true" alt="python-and-mysql-tutorial" />
