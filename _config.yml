@@ -1,3 +1,23 @@
-title: Ali Almalki
+title: Ali Almalki – Portfolio
+description: Data Scientist | AI Engineer
 logo: Ali Almalki White.jpg
 theme: jekyll-theme-minimal
+show_downloads: false
+
+# Site URLs (important for SEO & links)
+url: https://almalkihub.github.io
+baseurl: /portfolio
+
+# Hide the default "View the Project on GitHub" link
+github:
+  is_project_page: false
+  owner_url: https://github.com/AlmalkiHub
+
+# Optional analytics (paste your GA ID or remove)
+# google_analytics: G-XXXXXXXXXX
+
+# SEO + sitemap (GitHub Pages–approved plugins)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
