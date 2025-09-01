@@ -15,7 +15,6 @@ Welcome to my personal portfolio page.
 
 - **AWS Certified AI Practitioner (AIF-C01)** — *Amazon Web Services (AWS)*  
   Issued **Aug 2025** · Expires **Aug 2028**  
-  Credential ID: `e7609d7a538540f9ae5ac6d30121e143`  
   [Show credential](https://www.credly.com/badges/bd79bc79-6b37-436e-b91b-73e749ed40a1/linked_in_profile)
 
 - **Deep Learning Specialization (5 Courses)** — *DeepLearning.AI*  
