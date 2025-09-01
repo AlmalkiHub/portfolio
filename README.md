@@ -19,6 +19,58 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
 
 ---
 
+## 📂 Public Repositories
+
+<div align="left">
+
+  <a href="https://github.com/AlmalkiHub/build-chatbot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=build-chatbot&show_owner=true" alt="build-chatbot" />
+  </a>
+  <a href="https://github.com/AlmalkiHub/petfinder-adoption-prediction">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=petfinder-adoption-prediction&show_owner=true" alt="petfinder-adoption-prediction" />
+  </a>
+
+  <a href="https://github.com/AlmalkiHub/python-and-mysql-tutorial">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=python-and-mysql-tutorial&show_owner=true" alt="python-and-mysql-tutorial" />
+  </a>
+  <a href="https://github.com/AlmalkiHub/bank-customer-churn-prediction">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=bank-customer-churn-prediction&show_owner=true" alt="bank-customer-churn-prediction" />
+  </a>
+
+  <a href="https://github.com/AlmalkiHub/dbscan-clustering">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=dbscan-clustering&show_owner=true" alt="dbscan-clustering" />
+  </a>
+  <a href="https://github.com/AlmalkiHub/bag-of-words">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=bag-of-words&show_owner=true" alt="bag-of-words" />
+  </a>
+
+  <a href="https://github.com/AlmalkiHub/make_simulated_data_for_classification">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=make_simulated_data_for_classification&show_owner=true" alt="make_simulated_data_for_classification" />
+  </a>
+  <a href="https://github.com/AlmalkiHub/skimlit-nlp-project">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=skimlit-nlp-project&show_owner=true" alt="skimlit-nlp-project" />
+  </a>
+
+  <a href="https://github.com/AlmalkiHub/numpy_exercises">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=numpy_exercises&show_owner=true" alt="numpy_exercises" />
+  </a>
+  <a href="https://github.com/AlmalkiHub/pandas-exercises">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=pandas-exercises&show_owner=true" alt="pandas-exercises" />
+  </a>
+
+  <a href="https://github.com/AlmalkiHub/my-first-opencv-tutorial">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=my-first-opencv-tutorial&show_owner=true" alt="my-first-opencv-tutorial" />
+  </a>
+  <a href="https://github.com/AlmalkiHub/dog-breed">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlmalkiHub&repo=dog-breed&show_owner=true" alt="dog-breed" />
+  </a>
+
+</div>
+
+> 🔒 **Private repositories** are available upon request.
+
+---
+
 ## 🏵️ Certifications
 
 - **AWS Certified AI Practitioner (AIF-C01)** — *Amazon Web Services (AWS)*  
@@ -40,11 +92,9 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
 
 ## 💼 Work Experience
 - **Data & AI Engineer** — *NEOM* (Jul 2023– Present)  
-  Built data/AI solutions end-to-end: analytics pipelines, LLM prototypes, and stakeholder-facing dashboards.
 - **Data Analyst** — *Riyad Bank* (Nov 2022– Jul 2023)  
-  Used SQL, SAS EG, and Microsoft Excel to produce relevant ad-hoc reports and perform meaningful quantitative and qualitative analyses addressing impactful business issues or questions.
-- **Lecturer** — *University of Jeddah* (Jan 2022– Jun 2022)  
-  Lecturer at the Faculty of Computer Science and Engineering, University of Jeddah, teaching Artificial Neural Networks (CCAI-321), Introduction to Computer Science and Programming (CCCS-100), Introduction to Data Science (CCDS-211), Database Administration (CCDS-435), Introduction to Databases (CCCS-215), and Computational Discrete Mathematics (CCCS-122), with responsibilities including delivering lectures, addressing student inquiries, managing assignments and grading, providing feedback, and supervising examinations.
+- **Lecturer** — *University of Jeddah* (Jan 2022– Jun 2022)
+- **Oracle Developer** — *Saudi Business Machines (SBM)* (Oct 2018– Feb 2019)
 
 ---
 
