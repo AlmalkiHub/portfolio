@@ -1,11 +1,11 @@
-# Ali Almalki – Portfolio
+# Portfolio
 
 👋 Welcome to my personal portfolio page.  
 
 ---
 
 ## 👨🏻‍💻 About Me
-I’m **Ali Almalki**, a **Data Scientist | AI Engineer** focused on turning ideas into useful AI applications.  
+I’m a **Data Scientist | AI Engineer** focused on turning ideas into useful AI applications.  
 I enjoy building with Python, LLMs, and cloud services to solve real problems and create delightful user experiences.
 
 ---
