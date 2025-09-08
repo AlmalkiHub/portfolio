@@ -89,7 +89,7 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
 ---
 
 ## 💼 Work Experience
-- **Data & AI Engineer** — *NEOM* (Jul 2023– Present)  
+- **Data Analyst** — *NEOM* (Jul 2023– Present)  
 - **Data Analyst** — *Riyad Bank* (Nov 2022– Jul 2023)  
 - **Lecturer** — *University of Jeddah* (Jan 2022– Jun 2022)
 - **Oracle Developer** — *Saudi Business Machines (SBM)* (Oct 2018– Feb 2019)
