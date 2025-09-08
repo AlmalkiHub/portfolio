@@ -129,6 +129,6 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
 
 ---
 
-✨ This portfolio is evolving—check back for new projects, write-ups, and live demos.
+✨ This portfolio is evolving—check back for new updates.
 
 ![Last commit](https://img.shields.io/github/last-commit/AlmalkiHub/portfolio?label=Last%20updated)
