@@ -16,7 +16,7 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
 |---|---|---|
 | **VibeLift** | AI-powered daily motivation app (text → audio → image). | [App Link](https://vibelift.streamlit.app/) |
 | **YouTube Lecture Summarizer** *(WIP)* | Give a YouTube URL → fetch transcript → concise key-point summary. | [WIP](WIP) |
-| **RAG PDF Chatbot** | Upload PDFs → extract text + tables → FAISS index → ask questions with citations ([p.X]). Deployed on AWS ECS with Docker & Secrets Manager. | [AWS Link](http://15.185.83.67:7860/) |
+| **RAG PDF Chatbot** | Upload PDFs → extract text + tables → FAISS index → ask questions and get answers with citations ([p.X]). Deployed on AWS ECS with Docker & Secrets Manager. | [AWS Link](http://15.185.83.67:7860/) |
 
 ---
 
