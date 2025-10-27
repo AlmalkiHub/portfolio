@@ -71,7 +71,7 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
 
 ## 🏵️ Certifications
 
-**Project Management Professional (PMP)®** — *Project Management Institute (PMI)*  
+- **Project Management Professional (PMP)®** — *Project Management Institute (PMI)*  
   Issued **Oct 2025** · Expires **Oct 2028**  
   [Show credential](https://www.credly.com/badges/0567f236-3f15-4942-95cf-3859355da963)
 
