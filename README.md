@@ -71,6 +71,10 @@ I enjoy building with Python, LLMs, and cloud services to solve real problems an
 
 ## 🏵️ Certifications
 
+**Project Management Professional (PMP)®** — *Project Management Institute (PMI)*  
+  Issued **Oct 2025** · Expires **Oct 2028**  
+  [Show credential](https://www.credly.com/badges/0567f236-3f15-4942-95cf-3859355da963)
+
 - **AWS Certified AI Practitioner (AIF-C01)** — *Amazon Web Services (AWS)*  
   Issued **Aug 2025** · Expires **Aug 2028**  
   [Show credential](https://www.credly.com/badges/bd79bc79-6b37-436e-b91b-73e749ed40a1/linked_in_profile)
